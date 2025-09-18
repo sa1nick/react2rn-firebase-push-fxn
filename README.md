@@ -25,13 +25,7 @@ Firebase Cloud Functions to send push notifications from a **React web admin app
 
 ## 🔧 Setup
 
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/react2rn-push-firebase-functions.git
-   cd react2rn-push-firebase-functions/functions
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    ```
@@ -41,7 +35,7 @@ Firebase Cloud Functions to send push notifications from a **React web admin app
    yarn install --legacy-peer-deps
    ```
 
-3. Deploy the Cloud Function:
+2. Deploy the Cloud Function:
    ```bash
    firebase deploy --only functions
    ```
